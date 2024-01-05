@@ -29,7 +29,7 @@ if (window.innerWidth <= 768) {
         }
 
         if (p) {
-            p.style.fontSize = 'medium';
+            p.style.fontSize = 'small';
         }
 
         if (section) {
@@ -38,7 +38,7 @@ if (window.innerWidth <= 768) {
         }
 
         if (aboutMe) {
-            aboutMe.style.fontSize = 'large';
+            aboutMe.style.fontSize = 'small';
         }
     });
 }
