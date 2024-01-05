@@ -4,13 +4,13 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background: radial-gradient(ellipse at center, #727272 0%, #333 100%);
+    background:#666666;
     color: #fff;
     overflow-x: hidden;
 }
 
 nav {
-    background-color: #333;
+    background-color: #5d5c61;
 }
 
 ul {
@@ -36,20 +36,54 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #007bff;
-    border: 5px outset #007bff;
+    background-color: #7395AE;
     transition: background-color 0.3s ease, color 0.3s ease;
+    opacity: .95;
 }
 
 #buttons:hover {
-    background-color: #0056b3;
+    background-color: #557A95;
 }
 
+#buttonspro{
+    text-decoration: wavy;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7395AE;
+    border: 1px solid #557A95;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#buttonspro:hover {
+    background-color: #557A95;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: .65;
+  }
+
 header {
-    background-color: #007bff;
+    background-color: #7395AE;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    opacity: .95;
 }
 
 section {
@@ -67,14 +101,14 @@ h1 {
 }
 
 h2 {
-    color: #007bff;
+    color: #7395AE;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
 }
 
 h3 {
-    color: #007bff;
+    color: #7395AE;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
@@ -89,13 +123,14 @@ p {
 }
 
 footer {
-    background-color: #007bff;
+    background-color: #b1a296;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    opacity: .95;
 }
 
 .footer-links {
@@ -118,11 +153,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #a1a0a0;
+    background: #727272;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #333;
+    background-color: #5d5c61;
     border-radius: 20px;
-    border: 3px solid #333;
+    border: 3px solid #5d5c61;
 }
