@@ -75,7 +75,7 @@ li {
     top: 0;
     bottom: 0;
     z-index: -1;
-    opacity: .65;
+    opacity: .75;
   }
 
 header {
@@ -100,14 +100,14 @@ h1 {
 }
 
 h2 {
-    color: #7395AE;
+    color: #557A95;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
 }
 
 h3 {
-    color: #7395AE;
+    color: #557A95;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;

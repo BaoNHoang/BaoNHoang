@@ -17,7 +17,7 @@ if (window.innerWidth <= 768) {
         }
 
         if (h2) {
-            h2.style.fontSize = '20px';
+            h2.style.fontSize = '15px';
         }
 
         if (h3) {
