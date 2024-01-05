@@ -1,0 +1,24 @@
+if (window.innerWidth <= 768) {
+    document.addEventListener('DOMContentLoaded', function () {
+        var buttons = document.querySelectorAll('#buttons, #buttonspro');
+        var h1 = document.querySelector('h1');
+        var h2 = document.querySelector('h2');
+        var h3 = document.querySelector('h3');
+
+        buttons.forEach(function (button) {
+            button.style.padding = '10px';
+        });
+
+        if (h1) {
+            h1.style.fontSize = '25px';
+        }
+
+        if (h2) {
+            h2.style.fontSize = '20px';
+        }
+
+        if (h3) {
+            h3.style.fontSize = '15px';
+        }
+    });
+}
