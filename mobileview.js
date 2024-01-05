@@ -14,22 +14,22 @@ if (window.innerWidth <= 768) {
         });
 
         if (h1) {
-            h1.style.fontSize = '25px';
+            h1.style.fontSize = 'large';
         }
 
         if (h2) {
-            h2.style.fontSize = '10px';
+            h2.style.fontSize = 'large';
         }
 
         if (h3) {
-            h3.style.fontSize = '10px';
+            h3.style.fontSize = 'medium';
         }
         if (ul) {
             ul.style.flexDirection = 'column';
         }
 
         if (p) {
-            p.style.fontSize = '5px';
+            p.style.fontSize = 'medium';
         }
 
         if (section) {
@@ -38,7 +38,7 @@ if (window.innerWidth <= 768) {
         }
 
         if (aboutMe) {
-            aboutMe.style.fontSize = 'small';
+            aboutMe.style.fontSize = 'large';
         }
     });
 }
