@@ -1,10 +1,12 @@
 function changeVideoOnLoad() {
     const videoSources = [
         'bubble.mp4',
-        'water.mp4',
+        'sky.mp4',
         'clock.mp4',
         'mountain.mp4',
-        'water.mp4',
+        'plains.mp4',
+        'rain.mp4',
+        'ocean.mp4',
         'texture.mp4'
     ];
 
