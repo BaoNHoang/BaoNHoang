@@ -31,7 +31,7 @@ li {
     font-weight: bold;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px 40px;
+    padding: 15px 20px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@ li {
     font-weight: bold;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px 40px;
+    padding: 15px 20px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ li {
 
 #myVideo {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     object-fit: cover;
     position: fixed;
     left: 0;
@@ -139,7 +139,7 @@ footer {
 }
 
 .footer-links a img {
-    width: 40px; 
+    width: 30px; 
     height: auto;
 }
 

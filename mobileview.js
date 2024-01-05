@@ -4,6 +4,9 @@ if (window.innerWidth <= 768) {
         var h1 = document.querySelector('h1');
         var h2 = document.querySelector('h2');
         var h3 = document.querySelector('h3');
+        var ul = document.querySelector('ul');
+        var section = document.querySelector('section');
+        var aboutMe = document.querySelector('#aboutMe');
 
         buttons.forEach(function (button) {
             button.style.padding = '10px';
@@ -19,6 +22,16 @@ if (window.innerWidth <= 768) {
 
         if (h3) {
             h3.style.fontSize = '15px';
+        }
+        if (ul) {
+            ul.style.flexDirection = 'column';
+        }
+        if (section) {
+            section.style.maxWidth = '100%';
+            section.style.padding = '0 10px';
+        }
+        if (aboutMe) {
+            aboutMe.style.fontSize = 'small';
         }
     });
 }
