@@ -14,7 +14,7 @@ if (window.innerWidth <= 768) {
         });
 
         if (h1) {
-            h1.style.fontSize = 'large';
+            h1.style.fontSize = 'larger';
         }
 
         if (h2) {
