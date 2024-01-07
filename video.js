@@ -7,7 +7,6 @@ function changeVideoOnLoad() {
         'plains.mp4',
         'rain.mp4',
         'ocean.mp4',
-        'texture.mp4'
     ];
 
     const videoElement = document.getElementById('myVideo');
