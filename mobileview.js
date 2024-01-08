@@ -14,15 +14,15 @@ if (window.innerWidth <= 768) {
         });
 
         if (h1) {
-            h1.style.fontSize = '25px';
+            h1.style.fontSize = 'larger';
         }
 
         if (h2) {
-            h2.style.fontSize = '20px';
+            h2.style.fontSize = 'large';
         }
 
         if (h3) {
-            h3.style.fontSize = '15px';
+            h3.style.fontSize = 'medium';
         }
         if (ol) {
             ul.style.flexDirection = 'column';
@@ -36,7 +36,7 @@ if (window.innerWidth <= 768) {
         }
 
         if (p) {
-            p.style.fontSize = 'small';
+            p.style.fontSize = 'smaller';
         }
     });
 }
