@@ -96,26 +96,26 @@ section {
 h1 {
     color: #ffffff;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
 }
 
 h2 {
-    color: #557A95;
+    color: #7395AE;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
 }
 
 h3 {
-    color: #557A95;
+    color: #7395AE;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #aboutMe {
