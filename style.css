@@ -13,12 +13,13 @@ nav {
     background-color: #5d5c61;
 }
 
-ol {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-around;
+    flex-direction:row
 }
 
 li {
