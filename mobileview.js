@@ -14,16 +14,17 @@ if (window.innerWidth <= 768) {
         });
 
         if (h1) {
-            h1.style.fontSize = 'larger';
+            h1.style.fontSize = '25px';
         }
 
         if (h2) {
-            h2.style.fontSize = 'large';
+            h2.style.fontSize = '20px';
         }
 
         if (h3) {
-            h3.style.fontSize = 'medium';
+            h3.style.fontSize = '15px';
         }
+        
         if (ul) {
             ul.style.flexDirection = 'column';
         }
