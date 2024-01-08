@@ -25,7 +25,7 @@ if (window.innerWidth <= 768) {
             h3.style.fontSize = 'medium';
         }
         if (ol) {
-            ul.style.flexDirection = 'column';
+            ol.style.flexDirection = 'column';
         }
         if (section) {
             section.style.maxWidth = '100%';
