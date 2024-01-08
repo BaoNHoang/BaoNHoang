@@ -24,7 +24,7 @@ if (window.innerWidth <= 768) {
         if (h3) {
             h3.style.fontSize = '15px';
         }
-        if (ul) {
+        if (ol) {
             ul.style.flexDirection = 'column';
         }
         if (section) {
